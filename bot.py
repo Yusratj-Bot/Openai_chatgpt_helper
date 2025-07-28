@@ -47,4 +47,4 @@ async def list_products(message: types.Message):
     await message.reply(text)
 
 if __name__ == "__main__":
-    executor.start_polling(dp, skip_updates=True)￼Enter
+    executor.start_polling(dp, skip_updates=True)
