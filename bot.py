@@ -4,7 +4,7 @@ import gspread
 from aiogram import Bot, Dispatcher, executor, types
 from oauth2client.service_account import ServiceAccountCredentials
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8017841130:AAFL7uWSx6rxRzy0W2151cGHUpN5ICbEkpU")
 SPREADSHEET_NAME = "OptoMarkaz_Tovary"
 
 scope = ["https://spreadsheets.google.com/feeds","https://www.googleapis.com/auth/drive"]
