@@ -17,7 +17,7 @@ scope = [
 ]
 creds = ServiceAccountCredentials.from_json_keyfile_name("service_account.json", scope)
 
-creds = ServiceAccountCredentials.from_json_keyfile_name("/opt/render/project/src/service_account.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_name("src/service_account.json", scope)
 client = gspread.authorize(creds)
 sheet = client.open(SPREADSHEET_NAME).sheet1
 
