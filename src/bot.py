@@ -5,7 +5,10 @@ from aiogram import Bot, Dispatcher, executor, types
 from oauth2client.service_account import ServiceAccountCredentials
 
 # 🔐 Токен Бота
-BOT_TOKEN = "8017841130:AAFL7uWSx6rxRzy0W2151cGHUpN5ICbEkpU"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+if not BOT_TOKEN:
+    logging.critical("Ошибка: Переменная окружения BOT_TOKEN не установлена.")
+    exit()
 
 # 📊 Название таблицы
 SPREADSHEET_NAME = "OptoMarkaz_Tovary"
