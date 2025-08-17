@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, executor, types
 from oauth2client.service_account import ServiceAccountCredentials
 
 # 🔐 Токен Бота
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8017841130:AAHLViqx3VcWOsFXNmwm6JLNZHscheBbMpE")
 if not BOT_TOKEN:
     logging.critical("Ошибка: Переменная окружения BOT_TOKEN не установлена.")
     exit()
