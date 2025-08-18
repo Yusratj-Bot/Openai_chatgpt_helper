@@ -1,0 +1,10 @@
+{
+    "welcome": "👋 Hello and welcome to the OptoMarkaz B2B bot! (v3.0)\nYou can:\n🛒 Add product: product, price, quantity, category (comma-separated)\n📦 View product list: /list",
+    "add_success": "✅ Product with category added successfully!",
+    "add_error_format": "⚠️ Error: Invalid format. Please provide four comma-separated values (product, price, quantity, category).",
+    "add_error_generic": "⚠️ Error while adding: {error}",
+    "list_empty": "📭 The product list is empty.",
+    "list_header": "📦 **Product List:**",
+    "list_error": "⚠️ Error while reading list: {error}",
+    "uncategorized": "Uncategorized"
+}
